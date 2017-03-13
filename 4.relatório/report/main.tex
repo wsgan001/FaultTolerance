@@ -1,0 +1,75 @@
+\documentclass{report}%{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[square]{natbib}
+\usepackage{graphicx}
+\usepackage{framed}
+\usepackage{multirow}
+\usepackage{lipsum}  
+\usepackage{verbatim}
+
+\usepackage[oneside,width=17.5cm,height=24cm,left=2cm]{geometry}
+%\usepackage[nolist,nohyperlinks]{acronym}
+
+\usepackage[]{nomencl}
+
+%\usepackage{biblatex}
+%\addbibresource{references.bib}
+
+\usepackage{array}
+\newcolumntype{C}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+\title{\vspace{-3.5cm} Seminars - Report \\
+\hrulefill\\
+ Study of metering and communication systems\\ for smart grids%\\
+%Giuseppe Lipari, Giorgio Buttazzo, Luca Abeni.
+}
+\author{Student: Vítor A. Morais\\
+Supervisor: António Pina Martins }
+
+
+
+\makenomenclature
+\input{chapters/acronyms}
+
+
+\begin{document}
+
+\maketitle
+
+
+
+%\chapter*{Abstract}
+%Abstract goes here
+%%
+%%   Section 
+%%
+\tableofcontents
+
+
+\printnomenclature
+
+\chapter*{Symbols}
+\input{chapters/symbols}
+
+\chapter{Introduction}
+\input{chapters/A1_introduction}
+
+
+\chapter{Metering Systems}
+\input{chapters/B10_monitoring}
+
+\chapter{Communication systems}
+\input{chapters/C10_communication}
+
+\chapter{Conclusion}
+\input{chapters/D1_conclusions}
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,report2}
+
+%\bibliographystyle{plainnat}
+%\bibliography{references}
+
+
+\end{document}
