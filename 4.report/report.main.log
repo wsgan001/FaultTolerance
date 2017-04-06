@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.21)  6 APR 2017 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  6 APR 2017 21:00
 entering extended mode
 **./report.main.tex
 (report.main.tex
@@ -940,7 +940,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-) [4] [5]
+ [4]) [5]
 Chapter 4.
 (chapters/4.Future.tex) [6
 
@@ -961,10 +961,10 @@ Package rerunfilecheck Info: File `report.main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 9161 strings out of 493333
- 133639 string characters out of 3139194
- 337266 words of memory out of 3000000
- 12440 multiletter control sequences out of 15000+200000
+ 9163 strings out of 493333
+ 133664 string characters out of 3139189
+ 338308 words of memory out of 3000000
+ 12441 multiletter control sequences out of 15000+200000
  57245 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,45p,607b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -974,9 +974,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 imes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.main.pdf (11 pages, 171138 bytes).
+Output written on report.main.pdf (11 pages, 171739 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  158 words of extra memory for PDF output out of 10000 (max. 10000000)
 
