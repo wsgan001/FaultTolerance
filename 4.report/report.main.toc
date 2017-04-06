@@ -1,0 +1,19 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Context and motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Document structure}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Railways Remote Monitoring Systems}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Smart Meters}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Synthesis}{2}{section.2.2}
+\contentsline {chapter}{\numberline {3}Outliers Detection}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Definition of outlier detection}{3}{section.3.1}
+\contentsline {section}{\numberline {3.2}Outlier detection in WSNs}{3}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Motivation}{3}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Research areas}{4}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Challenges}{4}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Classification of outlier}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}Taxonomies}{5}{section.3.4}
+\contentsline {chapter}{\numberline {4}Future Research}{6}{chapter.4}
+\contentsline {section}{\numberline {4.1}Outliers detection definition}{6}{section.4.1}
+\contentsline {section}{\numberline {4.2}Synthesis}{6}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusion}{7}{chapter.5}

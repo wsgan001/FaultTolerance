@@ -4,7 +4,7 @@ In this chapter it is  made the study of the state of the art of outliers and it
 
 \section{Definition of outlier detection}
 
-Outlier detection is a computational task to detect and retrive information from erroneous data values. The definition is usually close to anomaly detection or deviation detection. 
+Outlier detection is a computational task to detect and retrieve information from erroneous data values. The definition is usually close to anomaly detection or deviation detection. 
 
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -21,16 +21,50 @@ Wireless sensor networks (WSNs) has been widely used in several applications in 
 The motivation of detecting outliers in data acquired from WSNs has been extensivelly presented in the literature. The need for acquire data from harsh or "highly dynamic" environments as well as the need to validate and extract knowledge from the acquired data are one of the main points in the motivation to study the outlier detection in WSNs. <zang2010> <chandola2009> <ghorbel2015> <martins2015>  
 
 \subsection{Research areas}
-Zhang et al. <zang2010> identifies the outlier detection research areas in three domains: 
+Zhang et al. <zhang2010> identifies the outlier detection research areas in three domains: 
 
 \begin{itemize}
 	\item Intrusion detection: Situation caused by malicious attacks, where the detection techniques are query-driven techniques;
 	
 	\item Fault detection: Situation where the data suffer from noise and errors and where the detection techniques are data-driven ones;
 	
-	\item Event detection: Situation caused by the occurrence of one atomic or multiple events and where the majority of the research has been developed due to the complexity of detecting and extracting information on xc 
-\end{itemize}}
+	\item Event detection: Situation caused by the occurrence of one atomic or multiple events and where the majority of the research has been developed due to the complexity of detecting and extracting information on ?? upper layers ??
+\end{itemize}
 
+Based on the division of this three domains, the upcoming research is intended to be focused on the event detection techniques. ?? The railway environment requires closed subsystems that meets specific standards. Despite the intrusion detection should be considered, this must be took into consideration accordingly to the development and implementation of the wireless smart metering system for the railways. ?? The fault detection should and must be taken into consideration and the data outcome must be, preferably, a null value with a warning raised. ???
 
 \subsection{Challenges}
 
+The challenges of outlier detection in WSNs are related to the quality of the acquisition of the sensors, the fiability of the modules in terms of energy or environmental susceptibility, and the communication requirements and restrictions.
+
+Zhang et al. <zhang2010> lists the challenges as the following:
+
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	
+	\item Resource constraints;
+	
+	\item High communication costs;
+	
+	\item Distributed streaming data;
+	
+	\item Dynamic network topology, \\ frequent communication failures, \\ mobility and heterogeneity of nodes;
+	
+	\item Large-scale deployment;
+	
+	\item Identifier outlier sources;
+	
+\end{itemize}
+
+\begin{framed}
+	Thus, the main challenge faced by outlier detection techniques for WSNs is to satisfy the mining accuracy requirements while maintaining the resource consumption of WSNs
+	to a minimum [21]. In other words, the main question is how to
+	process as much data as possible in a decentralized and online
+	fashion while keeping the communication overhead, memory
+	and computational cost low [1].
+\end{framed}
+
+
+\section{Classification of outlier}
+
+\section{Taxonomies}
