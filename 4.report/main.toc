@@ -5,8 +5,10 @@
 \contentsline {section}{\numberline {2.1}Smart Meters}{4}
 \contentsline {section}{\numberline {2.2}Synthesis}{4}
 \contentsline {chapter}{\numberline {3}Outliers Detection}{5}
-\contentsline {section}{\numberline {3.1}Outliers detection definition}{5}
-\contentsline {section}{\numberline {3.2}Synthesis}{5}
+\contentsline {section}{\numberline {3.1}Definition of outlier detection}{5}
+\contentsline {section}{\numberline {3.2}Outlier detection in WSNs}{5}
+\contentsline {subsection}{\numberline {3.2.1}Motivation}{5}
+\contentsline {subsection}{\numberline {3.2.2}Challenges}{5}
 \contentsline {chapter}{\numberline {4}Future Research}{6}
 \contentsline {section}{\numberline {4.1}Outliers detection definition}{6}
 \contentsline {section}{\numberline {4.2}Synthesis}{6}

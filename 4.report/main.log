@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.21)  13 MAR 2017 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  6 APR 2017 13:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -610,21 +610,22 @@ No file main.bbl.
 
 ] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 3139 strings out of 493333
- 41237 string characters out of 3139194
- 214235 words of memory out of 3000000
- 6586 multiletter control sequences out of 15000+200000
- 8800 words of font info for 31 fonts, out of 3000000 for 9000
+ 3140 strings out of 493333
+ 41252 string characters out of 3139189
+ 215235 words of memory out of 3000000
+ 6587 multiletter control sequences out of 15000+200000
+ 9107 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,25p,237b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,8n,25p,497b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (8 pages, 88300 bytes).
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (8 pages, 98217 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
