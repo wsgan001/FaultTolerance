@@ -7,6 +7,10 @@
 \usepackage{lipsum}  
 \usepackage{verbatim}
 
+\usepackage{multirow}
+\usepackage{array}
+
+
 \documentclass[11pt,a4paper,twoside,openright]{report}
 %\usepackage[oneside,width=17.5cm,height=24cm,left=2cm]{geometry}
 %\usepackage[nolist,nohyperlinks]{acronym}
@@ -16,8 +20,10 @@
 %\usepackage{biblatex}
 %\addbibresource{references.bib}
 
-\usepackage{array}
-\newcolumntype{C}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 
 

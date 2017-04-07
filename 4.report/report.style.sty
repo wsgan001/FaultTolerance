@@ -8,7 +8,7 @@
 \def \filename {report.style.sty}
 \def \filedate {2014/01/24}
 \def \fileversion {1.1.1}
-\ProvidesPackage {feupteses}[\filedate\space\fileversion\space]
+\ProvidesPackage {report.style}[\filedate\space\fileversion\space]
 \typeout {Document Style `FEUP Teses' \fileversion\space <\filedate>}
 
 %% Option for Portuguese
@@ -123,14 +123,14 @@
 \fi
 
 %% Make sure that report has been loaded
-\@ifundefined{chapter}{\@latexerr{The `feupteses' option should be used
+\@ifundefined{chapter}{\@latexerr{The `report.style' option should be used
 with the `report' document style}{}}{}
 
 \RequirePackage{ifpdf}
 \ifpdf
   \relax
 \else
-  \@latexerr{The 'feupteses' package may only be used with
+  \@latexerr{The 'report.style' package may only be used with
     pdflatex}{Please process this file with pdflatex.}
 \fi
 

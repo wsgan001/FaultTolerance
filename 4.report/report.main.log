@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  6 APR 2017 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.21)  7 APR 2017 02:37
 entering extended mode
 **./report.main.tex
 (report.main.tex
@@ -336,11 +336,8 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 )) (report.style.sty
+Package: report.style 2014/01/24 1.1.1 
 
-LaTeX Warning: You have requested package `report.style',
-               but the package provides `feupteses'.
-
-Package: feupteses 2014/01/24 1.1.1 
 Document Style `FEUP Teses' 1.1.1 <2014/01/24>
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
@@ -684,6 +681,14 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks20
 \verbatim@in@stream=\read1
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen135
+\extrarowheight=\dimen136
+\NC@list=\toks21
+\extratabsurround=\skip58
+\backup@length=\skip59
+)
 
 ! LaTeX Error: Two \documentclass or \documentstyle commands.
 
@@ -691,23 +696,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...mentclass[11pt,a4paper,twoside,openright]{
+l.14 ...mentclass[11pt,a4paper,twoside,openright]{
                                                   report}
 The document may only declare one class.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen135
-\nom@tempdim=\dimen136
-\nomitemsep=\skip58
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen137
-\extrarowheight=\dimen138
-\NC@list=\toks21
-\extratabsurround=\skip59
-\backup@length=\skip60
+\nomlabelwidth=\dimen137
+\nom@tempdim=\dimen138
+\nomitemsep=\skip60
 )
 \@nomenclaturefile=\write3
 \openout3 = `report.main.nlo'.
@@ -940,7 +937,17 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
- [4]) [5]
+ (tables/t1.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 3.
+
+
+Overfull \hbox (1263.53386pt too wide) in paragraph at lines 8--21
+ [][] 
+ []
+
+[4])) [5]
 Chapter 4.
 (chapters/4.Future.tex) [6
 
@@ -961,20 +968,20 @@ Package rerunfilecheck Info: File `report.main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 9163 strings out of 493333
- 133664 string characters out of 3139189
- 338308 words of memory out of 3000000
- 12441 multiletter control sequences out of 15000+200000
+ 9171 strings out of 493333
+ 133741 string characters out of 3139194
+ 342372 words of memory out of 3000000
+ 12445 multiletter control sequences out of 15000+200000
  57245 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,45p,607b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,45p,684b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.main.pdf (11 pages, 171739 bytes).
+Output written on report.main.pdf (11 pages, 172755 bytes).
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
  35 named destinations out of 1000 (max. 500000)
