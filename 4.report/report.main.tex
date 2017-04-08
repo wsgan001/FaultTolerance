@@ -1,6 +1,6 @@
-\documentclass{report}%{IEEEtran}
+\documentclass[11pt,a4paper,twoside,openright]{report}
 \usepackage[utf8]{inputenc}
-\usepackage[backrefs]{report.style}
+\usepackage[backrefs]{feupteses}
 
 \input{report.preamble}
 
@@ -43,6 +43,13 @@
 
 \chapter{Outliers Detection}
 \input{chapters/3.Outliers}
+\input{chapters/3.Outliers.1class}
+\input{chapters/3.Outliers.2stat}
+\input{chapters/3.Outliers.3nn}
+\input{chapters/3.Outliers.4clust}
+\input{chapters/3.Outliers.5spectr}
+
+
 
 \chapter{Future Research}
 \input{chapters/4.Future}
@@ -50,8 +57,13 @@
 \chapter{Conclusion}
 \input{chapters/5.Conclusions}
 
-\bibliographystyle{IEEEtran}
-\bibliography{IEEEabrv,references}
+
+
+
+%\bibliography{outliers,references}
+%\bibliography{outliers}
+\PrintBib{outliers}
+
 
 %\bibliographystyle{plainnat}
 %\bibliography{references}

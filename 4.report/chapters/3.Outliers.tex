@@ -18,7 +18,8 @@ Wireless sensor networks (WSNs) has been widely used in several applications in 
 
 "In sensor networks, the majority of the energy is consumed in radio communication rather than computation" ... in the particular case of Sensoria sensors and Berkeley motes, the ratio of energy consumption between computation and communication modes is between 1000 and 10000 <rajasegarar2007>. Thus, an research opportunity is raised to reduce the communication usage of $\mu C$s by adding processing features towards the redution of energy consumption.
 
-The motivation of detecting outliers in data acquired from WSNs has been extensivelly presented in the literature. The need for acquire data from harsh or "highly dynamic" environments as well as the need to validate and extract knowledge from the acquired data are one of the main points in the motivation to study the outlier detection in WSNs. <zang2010> <chandola2009> <ghorbel2015> <martins2015>  
+The motivation of detecting outliers in data acquired from WSNs has been extensivelly presented in the literature. The need for acquire data from harsh or "highly dynamic" environments as well as the need to validate and extract knowledge from the acquired data are one of the main points in the motivation to study the outlier detection in WSNs, \cite{gen:zhang:2010}. <zang2010> <chandola2009> <ghorbel2015> <martins2015>  
+
 
 \subsection{Research areas}
 Zhang et al. <zhang2010> identifies the outlier detection research areas in three domains: 
@@ -57,6 +58,8 @@ Zhang et al. <zhang2010> lists the challenges as the following:
 \end{itemize}
 
 \begin{framed}
+	conclusion Copy paste from zhang:
+	
 	Thus, the main challenge faced by outlier detection techniques for WSNs is to satisfy the mining accuracy requirements while maintaining the resource consumption of WSNs
 	to a minimum [21]. In other words, the main question is how to
 	process as much data as possible in a decentralized and online
@@ -67,10 +70,71 @@ Zhang et al. <zhang2010> lists the challenges as the following:
 
 \section{Classification of outlier}
 
-Zhang et al. <zhang2010> presents aspects to be used as metrics to compare characteristics of different outlier detection techniques. In parallel, Chandola et al. <chandola2009> presents a similar approach for the classification of outlier detection. In the following table is present a comparison between the 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
+Zhang et al. <zhang2010> presents aspects to be used as metrics to compare characteristics of different outlier detection techniques. In parallel, Chandola et al. <chandola2009> presents a similar approach for the classification of outlier detection. In table \ref{table:t1} is present a comparison between two approaches to classify the nature of input sensor data.
 
+	
 \input{tables/t1}
+	
 
-\section{Taxonomies}
+Based on the work of Zhang et al. and Chandola et al., the table \ref{table:t2} identifies the different types of outliers. 
+Those types differs on the objective of the outlier detection techniques: detect anomalies in individual data instances or in groups of data to detect irregularities, respectively, in local or in the global measuring system.
+
+\input{tables/t2}
+
+\newpage
+
+
+Table \ref{table:t3} continues the classification, focusing in three parts: 
+\begin{itemize}
+		\setlength\itemsep{-0.5em}
+		\item The need of pre-classified data (to implement supervised, semi-supervised or unsupervised outlier detection techniques);
+		
+		\item The output of outlier detection techniques (binary labels for normal/abnormal data-set and a score for each data-set to evaluate the weight of being an anomaly)
+		
+		\item The identity of the outliers (detect errors, events or malicious attacks)
+\end{itemize}
+
+\input{tables/t3}
+
+\newpage
+
+\section{Taxonomy of Outlier Detection Techniques}
+
+The study of detection techniques requires a well defined taxonomy framework that addresses the related work on the different areas. This taxonomy is well defined and solid in the literature, where the works of Zhang et al. and Chandola et al. reflect a similar approach on presenting a taxonomy for outlier detection techniques.
+
+In the following sections a coverage in relevant techniques is presented:
+
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item Classification based techniques.
+	\subitem Bayesian Networks
+	\subitem Rule-based techniques
+	\subitem Support Vector Machines
+	
+	\item Statistical based techniques.
+	\subitem Parametric --- Gaussian based
+	\subitem Non-parametric --- Histogram based
+	\subitem Non-parametric --- Kernel function based
+	
+	\item Nearest Neighbor-based techniques.
+	\subitem Using distance
+	\subitem Using relative density
+	
+	\item Clustering based techniques.
+	
+	\item Spectral Decomposition based techniques.
+	
+\end{itemize}
+
+
+%%%o resto deste capítulo está dividido em ficheiros
+
+
+
+
+
+
+
+
+
+
