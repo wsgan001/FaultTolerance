@@ -415,7 +415,7 @@ with the `report' document style}{}}{}
 \renewcommand{\footrulewidth}{0pt}
 \addtolength{\headheight}{0.5pt}
 
-\if@headerscenteredtrue
+\if@mieic
   \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
   \fancyhead{} % clear all header fields
   \fancyhead[C]{\leftmark}
@@ -445,29 +445,29 @@ with the `report' document style}{}}{}
 \RequirePackage[pdftex,pdfpagelabels,bookmarks,hyperindex,hyperfigures]{hyperref}
 
 \if@backrefs
-  \RequirePackage[hyperpageref]{backref}
-  \renewcommand*{\backref}[1]{}
-  \if@portugues
-    \renewcommand*{\backrefalt}[4]{%
-      \ifcase #1 %
-      \or
-      {\footnotesize Citado na p\'{a}gina #2.}%
-      \else
-      {\footnotesize Citado nas p\'{a}ginas #2.}%
-      \fi
-    }
-    \renewcommand*{\backreftwosep}{ e~}
-    \renewcommand*{\backreflastsep}{ e~}
+\RequirePackage[hyperpageref]{backref}
+\renewcommand*{\backref}[1]{}
+\if@portugues
+\renewcommand*{\backrefalt}[4]{%
+  \ifcase #1 %
+  \or
+  {\footnotesize Citado na p\'{a}gina #2.}%
   \else
-    \renewcommand*{\backrefalt}[4]{%
-      \ifcase #1 %
-      \or
-      {\footnotesize Cited on page #2.}%
-      \else
-      {\footnotesize Cited on pages #2.}%
-      \fi
-    }
+  {\footnotesize Citado nas p\'{a}ginas #2.}%
   \fi
+}
+\renewcommand*{\backreftwosep}{ e~}
+\renewcommand*{\backreflastsep}{ e~}
+\else
+\renewcommand*{\backrefalt}[4]{%
+  \ifcase #1 %
+  \or
+  {\footnotesize Cited on page #2.}%
+  \else
+  {\footnotesize Cited on pages #2.}%
+  \fi
+}
+ \fi
 \fi
 
 \if@onpaper 

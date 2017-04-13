@@ -1,6 +1,8 @@
 \documentclass[11pt,a4paper,twoside,openright]{report}
 \usepackage[utf8]{inputenc}
-\usepackage[backrefs]{feupteses}
+
+\usepackage[]{feupteses}
+%\usepackage[square,sort,comma,numbers]{natbib}
 
 \input{report.preamble}
 
@@ -24,10 +26,10 @@
 \tableofcontents
 
 
-\printnomenclature
+%\printnomenclature
 
-\chapter*{Symbols}
-\input{chapters/B.symbols}
+%\chapter*{Symbols}
+%\input{chapters/B.symbols}
 
 	
 \end{Prolog}
@@ -38,8 +40,8 @@
 \input{chapters/1.Introduction}
 
 
-\chapter{Railways Remote Monitoring Systems}
-\input{chapters/2.Railways}
+%\chapter{Railways Remote Monitoring Systems}
+%\input{chapters/2.Railways}
 
 \chapter{Outliers Detection}
 \input{chapters/3.Outliers}
@@ -59,10 +61,12 @@
 
 
 
+\bibliographystyle{chicago}
+%chicago}
 
-%\bibliography{outliers,references}
+\bibliography{outliers,shif2rail,references}
 %\bibliography{outliers}
-\PrintBib{outliers}
+%\PrintBib{outliers, }
 
 
 %\bibliographystyle{plainnat}

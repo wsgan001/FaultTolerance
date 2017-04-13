@@ -1,0 +1,39 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Chandola, Banerjee, and Kumar}{Chandola
+  et~al.}{2009}]{gen:chandola:2009}
+Chandola, V., A.~Banerjee, and V.~Kumar (2009, jul).
+\newblock Anomaly detection.
+\newblock {\em {ACM} Computing Surveys\/}~{\em 41\/}(3), 1--58.
+
+\bibitem[\protect\citeauthoryear{Ghorbel, Ayedi, Snoussi, and Abid}{Ghorbel
+  et~al.}{2015}]{stat:ghorbel:2015}
+Ghorbel, O., W.~Ayedi, H.~Snoussi, and M.~Abid (2015, jun).
+\newblock Fast and efficient outlier detection method in wireless sensor
+  networks.
+\newblock {\em {IEEE} Sensors Journal\/}~{\em 15\/}(6), 3403--3411.
+
+\bibitem[\protect\citeauthoryear{Martins, Palma, Cardoso, and Gil}{Martins
+  et~al.}{2015}]{class:martins:2015b}
+Martins, H., L.~Palma, A.~Cardoso, and P.~Gil (2015, may).
+\newblock A support vector machine based technique for online detection of
+  outliers in transient time series.
+\newblock In {\em 2015 10th Asian Control Conference ({ASCC})}. Institute of
+  Electrical and Electronics Engineers ({IEEE}).
+
+\bibitem[\protect\citeauthoryear{Rajasegarar, Leckie, Palaniswami, and
+  Bezdek}{Rajasegarar et~al.}{2007}]{class:rajasegarar:2007}
+Rajasegarar, S., C.~Leckie, M.~Palaniswami, and J.~C. Bezdek (2007, jun).
+\newblock Quarter sphere based distributed anomaly detection in wireless sensor
+  networks.
+\newblock In {\em 2007 {IEEE} International Conference on Communications}.
+  Institute of Electrical and Electronics Engineers ({IEEE}).
+
+\bibitem[\protect\citeauthoryear{Zhang, Meratnia, and Havinga}{Zhang
+  et~al.}{2010}]{gen:zhang:2010}
+Zhang, Y., N.~Meratnia, and P.~Havinga (2010).
+\newblock Outlier detection techniques for wireless sensor networks: A survey.
+\newblock {\em {IEEE} Communications Surveys {\&} Tutorials\/}~{\em 12\/}(2),
+  159--170.
+
+\end{thebibliography}

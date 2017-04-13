@@ -117,17 +117,95 @@ From the individual sensor node point of view, this algorithm consists in two ph
 	Where the best neighbors are identified ad selected to cooperate with, and, in addiction, to correspond to a reconfiguration of the Bayesian Network structure.
 \end{description}
 
-In the global point of view, if there is a high number of cooperating nodes, the classification is natirally higher with the drawback if increasing the processing time and communication complexity (thus resulting in increased detection delay and increase of energy consumption).
+In the global point of view, if there is a high number of cooperating nodes, the classification is naturally higher with the drawback if increasing the processing time and communication complexity (thus resulting in increased detection delay and increase of energy consumption).
 
 Xiang et al. <xiang2016> proposes the addition of recover and recalibrate the drifted sensors simultaneously based on the usage of a Bayesian network.
 
 The authors have applied their algorithm to the measurement of the variables in the sensor readings of the NO$_2$, CO and O$_3$ pollutants, as previously presented in figure \ref{fig:xiang2016}.
 Based on the correlations of the sensor readings and on the temperature influence, the algorithm itself detects the outliers, recover valid information and adjust the BBN to automatically recalibrate the sensor.
 
-\newpage
+
 
 
 \subsection{Rule-based techniques}
-\lipsum[1]
+
+Rule based is another classification based technique for outlier detection. Similarly, this technique is based on a training stage from a data-set and a model generation to detect new data-instances based on history values.
+
+Rule based techniques depends on two steps <chandola2009>:
+
+\begin{itemize}
+	%\setlength\itemsep{-0.5em}
+	\item \textbf{Learn rules from the training data-set}\\
+	Using a learning algorithm (i.e. RIPPER, Decision Tree, etc.)\\
+	Where each rule has an associated confidence value 	proportional to the ratio:\\
+	{\centering	$\text{\footnotesize Confidence Value} = \frac{\text{number of training instances correctly classified by the rule}}{\text{number of total training instances covered by the rule}}$
+}
+		
+	\item \textbf{Find for each test instance the rule}\\
+	That better capture the given test instance.
+	
+	\item \textbf{The anomaly score is}\\
+	The inverse of the confidence value for the rule that better capture the test instance.
+
+\end{itemize}
+
+Islam et al. 2016 <islam2016> proposes an algorithm for outlier detection inserted in rule-based taxonomy. They propose a new belief-rule-based association rule, with the focus on handling various types of uncertainties. 
+
+Due to the nature of the sensor data, a traditional inference mechanism can not be used. Therefore they propose a new inference mechanism for the rule-based algorithm that consists of an input transaction databased that is converted into the following:
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item belief transaction database;
+	\item support calculation;
+	\item belief matrix;
+	\item confidence calculation;
+	\item belief association rule discovery.
+	
+\end{itemize}
+
+
+\newpage
 
 \subsection{Support Vector Machines}
+
+Rather than performing outlier detection in the central node, Rajasegarar et al. <rajasegarar2007> proposes a 
+distributed approach to:
+
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item performs detection on local data at each node
+	\item and communicates only the summary information to perform the global classification of the data.	
+\end{itemize}
+
+Their proposal is based on a one-class quarter sphere svm and is divided into 2 parts:
+
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item \textbf{Anomaly detection  algorithm}
+	\subitem The OD is supported by previous works where, with the fitness approach of a hypersphere to the data in a higher dimensional space, and by applying a linear optimization to the problem of fitting the hypersphere with minimal radius R, having the center fixed at the origin and encompassing the majority of the image vectors.
+	\subitem The result of the linear optimization problem is the classification of the image vectors as:
+	\subitem  \textbf{$\rightarrow$ Support Vectors}, if inside the sphere;
+	\subitem  \textbf{$\rightarrow$ Outliers}, otherwise.
+	
+	\item \textbf{Distributed anomaly detection}
+	\subitem 1. Each sensor node runs the entire AD algorithm on local data;
+	\subitem 2. The resulting radius is sent to the parent node;
+	\subitem 3. Each parent computes the global radius;
+	\subitem 4. Parents sends the radius to children nodes;
+	\subitem 5. Children compares global radius with local one and updates parameters.
+		
+\end{itemize}
+
+
+Xu et al. 2012 <xu2012> proposes a KNN-SVM which is a Support Vector Machine based on K-Nearest Neighbor Algorithm.
+
+Despite KNN taxonomy is presented further on in section 3.7, in a synthesis  the KNN is a distance-based approach that detect outliers in adata-instances lying in the sparsest regions or lying in the outside of a given model boundary of the feature space.
+
+Considering the Quarter sphere SVM technique proposed by Rajasegarar et al. or by Sun et al 2008 <sun2008> the KNN-SVM combine the origin and the radius R that contain most of the samples and introduces kernel functions to make the optimization region more tighten.
+
+Martins et al.<martins2015a, martins 2015b> has proposed a modifies SVM based on a kernel-based technique. In parallel, they propose an online sliding window scheme. The modification extends the original LS-SVM to be applied to the transient raw data collected from transmitters attached to a WSN. In a posterior work, Gil et al. <gil2016> compares the LS-SVM with PCA (a technique that will be presented further on in section 3.9).
+\newpage
+
+
+
+
+

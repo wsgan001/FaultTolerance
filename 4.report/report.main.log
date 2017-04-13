@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  8 APR 2017 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  13 APR 2017 20:50
 entering extended mode
 **./report.main.tex
 (report.main.tex
@@ -494,8 +494,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@hangindent=\dimen120
 )
 \c@ContinuedFloat=\count93
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\lineno\lineno.sty"
+) (lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count94
 \output=\toks18
@@ -535,20 +534,6 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip52
 \f@ncyO@orf=\skip53
 )
-! Undefined control sequence.
-l.418 \if@headerscenteredtrue
-                             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \fi.
-l.425 \fi
-         
-I'm ignoring this; it doesn't match any \if.
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
@@ -660,9 +645,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
-Package: backref 2016/05/21 v1.39 Bibliographical back referencing
-)
 Package hyperref Info: Option `plainpages' set `false' on input line 497.
 Package hyperref Info: Option `bookmarksopen' set `false' on input line 497.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 497.
@@ -695,13 +677,71 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks20
 \verbatim@in@stream=\read1
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen135
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count114
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count115
+\leftroot@=\count116
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count117
+\DOTSCASE@=\count118
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count119
+\c@MaxMatrixCols=\count120
+\dotsspace@=\muskip11
+\c@parentequation=\count121
+\dspbrk@lvl=\count122
+\tag@help=\toks22
+\row@=\count123
+\column@=\count124
+\maxfields@=\count125
+\andhelp@=\toks23
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks24
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen135
-\extrarowheight=\dimen136
-\NC@list=\toks21
-\extratabsurround=\skip58
-\backup@length=\skip59
+\col@sep=\dimen144
+\extrarowheight=\dimen145
+\NC@list=\toks26
+\extratabsurround=\skip61
+\backup@length=\skip62
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -711,10 +751,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks22
-\XKV@tempa@toks=\toks23
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count114
+\XKV@depth=\count126
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
@@ -726,38 +766,38 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box29
+\collectedbox=\box31
 )
-\tc@llx=\dimen137
-\tc@lly=\dimen138
-\tc@urx=\dimen139
-\tc@ury=\dimen140
+\tc@llx=\dimen146
+\tc@lly=\dimen147
+\tc@urx=\dimen148
+\tc@ury=\dimen149
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen141
-\adjbox@Height=\dimen142
-\adjbox@Depth=\dimen143
-\adjbox@Totalheight=\dimen144
+\adjbox@Width=\dimen150
+\adjbox@Height=\dimen151
+\adjbox@Depth=\dimen152
+\adjbox@Totalheight=\dimen153
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count115
+\c@checkoddpage=\count127
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box30
-\sift@deathcycles=\count116
-\@vwid@loff=\dimen145
-\@vwid@roff=\dimen146
+\@vwid@box=\box32
+\sift@deathcycles=\count128
+\@vwid@loff=\dimen154
+\@vwid@roff=\dimen155
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen147
-\nom@tempdim=\dimen148
-\nomitemsep=\skip60
+\nomlabelwidth=\dimen156
+\nom@tempdim=\dimen157
+\nomitemsep=\skip63
 )
 \@nomenclaturefile=\write3
 \openout3 = `report.main.nlo'.
@@ -771,21 +811,21 @@ Writing nomenclature file report.main.nlo
 (report.macros.tex) (report.main.aux (report.info.aux))
 \openout1 = `report.main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 12.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -824,20 +864,19 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\big@size=\dimen149
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen150
-\scratchbox=\box31
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen151
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count129
+\scratchdimen=\dimen158
+\scratchbox=\box33
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen159
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -854,7 +893,7 @@ G,.JBIG2,.JB2,.eps]
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box32
+\AtBeginShipoutBox=\box34
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -864,7 +903,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 12.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -872,33 +911,32 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count123
+\c@section@level=\count135
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
 
 (report.main.out) (report.main.out)
 \@outlinefile=\write4
 \openout4 = `report.main.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 10.
 \openout2 = `report.info.aux'.
 
  (report.info.tex)
-\@crestbox=\box33
+\@crestbox=\box35
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 23.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
 
-<figures/uporto.pdf, id=131, 2405.98875pt x 522.95375pt>
+<figures/uporto.pdf, id=127, 2405.98875pt x 522.95375pt>
 File: figures/uporto.pdf Graphic file (type pdf)
 
 <use figures/uporto.pdf>
-Package pdftex.def Info: figures/uporto.pdf used on input line 21.
+Package pdftex.def Info: figures/uporto.pdf used on input line 23.
 (pdftex.def)             Requested size: 204.85983pt x 44.52628pt.
  [-3
 
@@ -914,7 +952,7 @@ Package pdftex.def Info: figures/uporto.pdf used on input line 21.
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
  [-1] [0
 
 ] (report.main.toc
@@ -959,46 +997,59 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 \tf@toc=\write5
 \openout5 = `report.main.toc'.
 
-
-No file report.main.nls.
-[1
+ [1
 
 
 ] [2
-
-] (chapters/B.symbols.tex) [3] [4
 
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
-(chapters/1.Introduction.tex) [1
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 39.
+(chapters/1.Introduction.tex
 
-] [2
-
-]
-Chapter 2.
-(chapters/2.Railways.tex) [3] [4
-
-]
-Chapter 3.
-(chapters/3.Outliers.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 17.
+Package natbib Warning: Citation `iea-uic2016' on page 1 undefined on input lin
+e 6.
 
 
-Package natbib Warning: Citation `gen:zhang:2010' on page 5 undefined on input 
-line 21.
+Package natbib Warning: Citation `shift2rail2015' on page 1 undefined on input 
+line 18.
 
-[5]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 28.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 22.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
- [6]
-(tables/t1.tex
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+
+<figures/IPs.jpg, id=193, 602.25pt x 332.24126pt>
+File: figures/IPs.jpg Graphic file (type jpg)
+ <use figures/IPs.jpg>
+Package pdftex.def Info: figures/IPs.jpg used on input line 32.
+(pdftex.def)             Requested size: 256.07741pt x 141.27417pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+]
+
+Package natbib Warning: Citation `shift2rail2015' on page 2 undefined on input 
+line 46.
+
+
+Package natbib Warning: Citation `shift2rail2015' on page 2 undefined on input 
+line 52.
+
+[2 <./figures/IPs.jpg>]) [3] [4
+
+]
+Chapter 2.
+(chapters/3.Outliers.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 17.
+ [5] [6] (tables/t1.tex
 Overfull \vbox (13.59999pt too high) detected at line 25
  []
 
@@ -1029,7 +1080,7 @@ Overfull \vbox (13.59999pt too high) detected at line 24
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) [8]) (chapters/3.Outliers.1class.tex [9]
-<figures/xiang2016.pdf, id=257, 254.3904pt x 239.93639pt>
+<figures/xiang2016.pdf, id=271, 254.3904pt x 239.93639pt>
 File: figures/xiang2016.pdf Graphic file (type pdf)
 
 <use figures/xiang2016.pdf>
@@ -1041,48 +1092,50 @@ Overfull \hbox (3.60391pt too wide) in paragraph at lines 65--66
 -ture the spatio-temporal
  []
 
-[11 <./figures/xiang2016.pdf>] [12] [13]) (chapters/3.Outliers.2stat.tex)
+[11 <./figures/xiang2016.pdf>] [12] [13] [14]) (chapters/3.Outliers.2stat.tex)
 (chapters/3.Outliers.3nn.tex) (chapters/3.Outliers.4clust.tex)
-(chapters/3.Outliers.5spectr.tex) [14]
+(chapters/3.Outliers.5spectr.tex) [15] [16
+
+]
+Chapter 3.
+(chapters/4.Future.tex) [17] [18
+
+]
 Chapter 4.
-(chapters/4.Future.tex) [15
+(chapters/5.Conclusions.tex) (report.main.bbl [19] [20
 
-] [16
-
-]
-Chapter 5.
-(chapters/5.Conclusions.tex) [17] [18
-
-]
-No file report.main.bbl.
+])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 72.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
-(report.main.aux (report.info.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+[21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+ (report.main.aux (report.info.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
 Package rerunfilecheck Info: File `report.main.out' has not changed.
-(rerunfilecheck)             Checksum: 73A7ECAC86803CD15E5B03CCEEDDBA4B;2385.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 72.
+(rerunfilecheck)             Checksum: EF5BB8A0217BDE70330426C3A71148E3;2339.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
  ) 
 Here is how much of TeX's memory you used:
- 10017 strings out of 493333
- 147241 string characters out of 3139189
- 369720 words of memory out of 3000000
- 13191 multiletter control sequences out of 15000+200000
- 57088 words of font info for 66 fonts, out of 3000000 for 9000
+ 10459 strings out of 493333
+ 151518 string characters out of 3139189
+ 377276 words of memory out of 3000000
+ 13615 multiletter control sequences out of 15000+200000
+ 68092 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,17n,77p,976b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,17n,77p,976b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.main.pdf (26 pages, 221257 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb
+8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.main.pdf (27 pages, 421854 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
