@@ -7,6 +7,35 @@ In this chapter it is  made the study of the state of the art of outliers and it
 Outlier detection is a computational task to detect and retrieve information from erroneous data values. The definition is usually close to anomaly detection or deviation detection. 
 
 
+In the scope of the PhD and as previously presented in chapter 1, an outlier is a data value or a data instance that do not represent the correct consumption status.
+
+The threshold of what is an outlier or not (or a value that do represent the correct consumption status or not) is given by the output of the subsystem that is immediately after the acquisition of consumption status subsystem, the decision support subsystem, gave a correct output or not. Figure \ref{fig:general} illustrates the integration of the consumption acquisition subsystems with the decision support subsystem.
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.75\textwidth,keepaspectratio]{figures/general}
+	\caption{Integration of the WSN with a decision support system. }
+	\label{fig:general}
+\end{figure}
+
+Without an outlier detection mechanism, the decision support subsystem may have the following outputs:
+
+
+\begin{description}
+	\setlength\itemsep{-0.5em}
+	\item[Input deviation from real value lower than a threshold]
+	The Decision Support Subsystem output is according to the real consumption conditions.
+	\item[Input deviation from real value greater than a threshold]
+	The Decision Support Subsystem output is not according to the real consumption conditions.	
+\end{description}
+
+The problem of taking decisions based on wrong considerations of the consumption status may lead to loss in desirable efficiency or increase of costs.
+
+Let us consider a simple and hypothetical example where the DSS will provide an output towards suggesting an action in preventive maintenance based on the usage of a component. Considering that the usage of the component is depending on the counting of situations that the component is working above the nominal conditions. Without an outlier detection mechanism, the outliers will induce the DSS to count situations of overcharge of the component where the measurement is not related to the working above the nominal conditions but is related to external influences such as EMI or temperature. The output of DSS may suggest a preventive maintenance on a component that is working in proper conditions.
+
+To conclude, with an outlier detection mechanism in the consumption acquisition subsystem the decision support subsystem may know if the value of consumption is an outlier or not and, with that information, the DSS output will be more accurate with the real conditions of operation.
+
 %%%%%%%%%%%%%%%%%%%%%
 %%   Wireless sensor networks
 %%%%%%%%%%%%%%%%%%%%%

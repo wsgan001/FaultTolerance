@@ -1,12 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: report.main.aux
 A level-1 auxiliary file: report.info.aux
 The style file: chicago.bst
-I couldn't open database file shif2rail.bib
----line 84 of file report.main.aux
- : \bibdata{outliers,shif2rail
- :                            ,references}
-I'm skipping whatever remains of this command
 Database file #1: outliers.bib
-Warning--I didn't find a database entry for "iea-uic2016"
-Warning--I didn't find a database entry for "shift2rail2015"
-(There was 1 error message)
+Database file #2: shift2rail.bib
+Database file #3: references.bib

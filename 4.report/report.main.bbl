@@ -1,5 +1,13 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Birol and Loubinoux}{Birol and
+  Loubinoux}{2016}]{iea-uic2016}
+Birol, F. and J.-P. Loubinoux (2016).
+\newblock 2016 edition of the uic-iea railway handbook on energy consumption
+  and co2 emissions focuses on sustainability targets.
+\newblock Technical report, IEA - International Energy Agency; UIC -
+  International Union of Railways.
+
 \bibitem[\protect\citeauthoryear{Chandola, Banerjee, and Kumar}{Chandola
   et~al.}{2009}]{gen:chandola:2009}
 Chandola, V., A.~Banerjee, and V.~Kumar (2009, jul).
@@ -28,6 +36,12 @@ Rajasegarar, S., C.~Leckie, M.~Palaniswami, and J.~C. Bezdek (2007, jun).
   networks.
 \newblock In {\em 2007 {IEEE} International Conference on Communications}.
   Institute of Electrical and Electronics Engineers ({IEEE}).
+
+\bibitem[\protect\citeauthoryear{{Shift2Rail Joint Undertaking}}{{Shift2Rail
+  Joint Undertaking}}{2015}]{shift2rail2015}
+{Shift2Rail Joint Undertaking} (2015).
+\newblock Shift2rail joint undertaking multi-annual action plan.
+\newblock Technical report, Shift2Rail.
 
 \bibitem[\protect\citeauthoryear{Zhang, Meratnia, and Havinga}{Zhang
   et~al.}{2010}]{gen:zhang:2010}
