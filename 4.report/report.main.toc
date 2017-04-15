@@ -7,26 +7,26 @@
 \contentsline {section}{\numberline {1.5}Document structure}{3}{section.1.5}
 \contentsline {chapter}{\numberline {2}Outliers Detection}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Definition of outlier detection}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Outlier detection in WSNs}{6}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Motivation}{6}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.2}Outlier detection in WSNs}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Motivation}{7}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Research areas}{7}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Challenges}{7}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Classification of outlier}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}Taxonomy of Outlier Detection Techniques}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Classification based techniques}{11}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Bayesian Networks}{11}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Rule-based techniques}{14}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Support Vector Machines}{15}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Statistical based techniques}{16}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Parametric --- Gaussian based}{16}{subsection.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Non-parametric --- Histogram based}{16}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Non-parametric --- Kernel function based}{16}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}Nearest Neighbor-based techniques}{16}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Using distance}{16}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Using relative density}{16}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Clustering based techniques}{16}{section.2.8}
-\contentsline {section}{\numberline {2.9}Spectral Decomposition based techniques}{16}{section.2.9}
-\contentsline {chapter}{\numberline {3}Future Research}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Outliers detection definition}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Synthesis}{17}{section.3.2}
-\contentsline {chapter}{\numberline {4}Conclusion}{19}{chapter.4}
+\contentsline {subsection}{\numberline {2.2.3}Challenges}{8}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Classification of outlier}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Taxonomy of Outlier Detection Techniques}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}Classification based techniques}{12}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Bayesian Networks}{12}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Rule-based techniques}{15}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Support Vector Machines}{16}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Statistical based techniques}{17}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Parametric --- Gaussian based}{17}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Non-parametric --- Histogram based}{17}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Non-parametric --- Kernel function based}{17}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Nearest Neighbor-based techniques}{17}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Using distance}{17}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Using relative density}{17}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Clustering based techniques}{17}{section.2.8}
+\contentsline {section}{\numberline {2.9}Spectral Decomposition based techniques}{17}{section.2.9}
+\contentsline {chapter}{\numberline {3}Future Research}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Outliers detection definition}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Synthesis}{19}{section.3.2}
+\contentsline {chapter}{\numberline {4}Conclusion}{21}{chapter.4}
