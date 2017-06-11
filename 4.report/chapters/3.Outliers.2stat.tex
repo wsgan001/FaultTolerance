@@ -2,10 +2,45 @@
 
 \section{Statistical based techniques}
 \label{sec:statbased}
-\lipsum[4-4]
+
+
+
+\cite{gen:chandola:2009} identifies the statistical techniques for anomaly detection based on the assumption that, in a stochastic model, the most common data instances occur in high probability regions and the anomalies occur in low probability regions.
+
+To detect anomalies, parametric techniques are suggested since those techniques \textbf{assume} the knowledge of the underlying distribution and \textbf{estimate} the parameters from a given data set. Non-parametric techniques differs from parametric ones without the need of assuming the knowledge of the distribution.
+
+
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
 \subsection{Parametric --- Gaussian based}
-\lipsum[1]
+\cite{gen:zhang:2010} summarizes parametric techniques as an anomaly detection strategy based on the following steps:
+
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item The available knowledge is generated from a known distribution;
+	\item The distribution parameters is then estimated from the give data.	
+\end{itemize}
+
+The usage of Gaussian  models allows the spatial correlation of the readings towards distinguishing between outlying sensors and event boundary. 
+
 \subsection{Non-parametric --- Histogram based}
-\lipsum[1]
+\cite{stat:sheng:2007} proposes a histogram-based method to reduce the communication cost on sensor networks. The main objective of this proposal is to collect hints (in a form of histogram) about the data distribution and, with the knowledge from these hints, unnecessary data is filtered and potential outliers are detected 
+
+
+Complementary, \cite{stat:wang:2013} introduces clusters on incremental histogram scheme based on a divide and conquer strategy:
+
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item The wireless network is divided in clusters (based on adjacent nodes and data correlated strategy);
+	\item The cluster head and cluster members updates the histogram incrementally and compares histograms in the form of Kullback-leibler divergence differentially (Kullback-leibler divergence is a convenient and robust
+	method of measuring the difference between two data sets in a
+	statistical sense.)
+\end{itemize}
+
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
 \subsection{Non-parametric --- Kernel function based}
-\lipsum[1]
+\cite{gen:zhang:2010} synthesizes the concept of Kernel function non-parametric approaches as methods for estimating the probability distribution function for normal instances (and a new instance that occurs on a low probability area is declared an outlier). Later on in section \ref{sec:specbased} is presented the Kernel Principal Component Analysis (KPCA) used by \cite{stat:ghorbel:2014} for outlier detection in WSN's.
+
+%%
+%%
