@@ -1,31 +1,31 @@
-%\newpage
-\section{Nearest Neighbor-based techniques}
-\label{sec:nnbased}
-
-A promissory technique is extensively explored in the literature with the concept of neighborhoods, based on the key assumption that normal instances occurs in dense neighborhoods and anomalies occurs far from their closest neighbors.
-
-
-\subsection{Using distance}
-
-\cite{class:branch:2006} proposes algorithms that implements nearest neighbor-based techniques for outlier detection in WSN's. The proposed unsupervised anomaly detection techniques uses the following different algorithms:
-
-\begin{itemize}
-	\setlength\itemsep{-0.5em}
-	\item The distance to the $k^{th}$ nearest neighbor;
-	\item The average distance to the k nearest neighbors;
-	\item the inverse of the number of neighbors, within a distance $\alpha$.	
-\end{itemize}
-
-\cite{nn:abid:2016} bases the detection technique on the distance between the current measurement and its neighbors. A synthetic database is generated based on the insertion of random values into a real database (in particular the Intel Berkeley lab WSN database).
-The procedure is divided in two steps: 
-\begin{itemize}
-	\setlength\itemsep{-0.5em}
-	\item \textbf{Step 1a)} For a given time-slot, the data values are sorted in a vector;
-	\item \textbf{Step 1b)} After that, for a given point in the vector, Euclidean distance between the predecessor and successor is calculated and stored in a second vector;
-	\item \textbf{Step 1c)} Based on the smallest distance between the current point and the predecessor or successor, the current point is linked;
-	\item \textbf{Step 2} If the point in the vector is not linked (due to it's distance between current point and predecessor/successor higher than a threshold?), is declared an outlier;
-\end{itemize}
-
-
-\subsection{Using relative density}
+%\newpage
+\section{Nearest Neighbor-based techniques}
+\label{sec:nnbased}
+
+A promissory technique is extensively explored in the literature with the concept of neighborhoods, based on the key assumption that normal instances occurs in dense neighborhoods and anomalies occurs far from their closest neighbors.
+
+
+\subsection{Using distance}
+
+\cite{class:branch:2006} proposes algorithms that implements nearest neighbor-based techniques for outlier detection in WSN's. The proposed unsupervised anomaly detection techniques uses the following different algorithms:
+
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item The distance to the $k^{th}$ nearest neighbor;
+	\item The average distance to the k nearest neighbors;
+	\item the inverse of the number of neighbors, within a distance $\alpha$.	
+\end{itemize}
+
+\cite{nn:abid:2016} bases the detection technique on the distance between the current measurement and its neighbors. A synthetic database is generated based on the insertion of random values into a real database (in particular the Intel Berkeley lab WSN database).
+The procedure is divided in two steps: 
+\begin{itemize}
+	\setlength\itemsep{-0.5em}
+	\item \textbf{Step 1a)} For a given time-slot, the data values are sorted in a vector;
+	\item \textbf{Step 1b)} After that, for a given point in the vector, Euclidean distance between the predecessor and successor is calculated and stored in a second vector;
+	\item \textbf{Step 1c)} Based on the smallest distance between the current point and the predecessor or successor, the current point is linked;
+	\item \textbf{Step 2} If the point in the vector is not linked (due to it's distance between current point and predecessor/successor higher than a threshold?), is declared an outlier;
+\end{itemize}
+
+
+\subsection{Using relative density}
 \lipsum[1]
