@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  12 JUN 2017 20:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  11 JUN 2017 20:40
->>>>>>> master
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  13 JUN 2017 10:30
 entering extended mode
 **./report.main.tex
 (report.main.tex
@@ -1098,17 +1094,8 @@ Overfull \hbox (3.60391pt too wide) in paragraph at lines 77--78
 
 [13 <./figures/xiang2016.pdf>] [14] [15] [16] [17])
 (chapters/3.Outliers.2stat.tex) (chapters/3.Outliers.3nn.tex [18])
-<<<<<<< HEAD
 (chapters/3.Outliers.4clust.tex [19]) (chapters/3.Outliers.5spectr.tex)
 (chapters/3.Outliers.6synth.tex) [20]
-=======
-(chapters/3.Outliers.4clust.tex) (chapters/3.Outliers.5spectr.tex)
-(chapters/3.Outliers.6synth.tex
-Underfull \vbox (badness 1237) has occurred while \output is active []
-
- [19])
-[20]
->>>>>>> master
 Chapter 3.
 (chapters/4.Future.tex) [21
 
@@ -1131,10 +1118,10 @@ Package rerunfilecheck Info: File `report.main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 10548 strings out of 493333
- 153163 string characters out of 3139189
- 372858 words of memory out of 3000000
- 13672 multiletter control sequences out of 15000+200000
+ 10552 strings out of 493333
+ 153280 string characters out of 3139189
+ 372940 words of memory out of 3000000
+ 13675 multiletter control sequences out of 15000+200000
  69956 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,17n,77p,976b,458s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1145,15 +1132,9 @@ pe1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-<<<<<<< HEAD
-Output written on report.main.pdf (34 pages, 760715 bytes).
+Output written on report.main.pdf (34 pages, 762342 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
-=======
-Output written on report.main.pdf (34 pages, 758711 bytes).
-PDF statistics:
- 523 PDF objects out of 1000 (max. 8388607)
->>>>>>> master
- 96 named destinations out of 1000 (max. 500000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
  285 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -79,6 +79,14 @@ Paola, A.~D., S.~Gaglio, G.~L. Re, F.~Milazzo, and M.~Ortolani (2015, may).
 \newblock {\em {IEEE} Transactions on Cybernetics\/}~{\em 45\/}(5), 902--913.
 
 \bibitem[\protect\citeauthoryear{Rajasegarar, Leckie, Palaniswami, and
+  Bezdek}{Rajasegarar et~al.}{2006}]{clust:rajasegarar:2006}
+Rajasegarar, S., C.~Leckie, M.~Palaniswami, and J.~Bezdek (2006).
+\newblock Distributed anomaly detection in wireless sensor networks.
+\newblock In {\em 2006 10th {IEEE} Singapore International Conference on
+  Communication Systems}. Institute of Electrical and Electronics Engineers
+  ({IEEE}).
+
+\bibitem[\protect\citeauthoryear{Rajasegarar, Leckie, Palaniswami, and
   Bezdek}{Rajasegarar et~al.}{2007}]{class:rajasegarar:2007}
 Rajasegarar, S., C.~Leckie, M.~Palaniswami, and J.~C. Bezdek (2007, jun).
 \newblock Quarter sphere based distributed anomaly detection in wireless sensor

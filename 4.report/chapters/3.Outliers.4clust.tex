@@ -1,6 +1,22 @@
-%\newpage
+\newpage
 
 
 \section{Clustering based techniques}
 \label{sec:clustbased}
-\lipsum[4-4]
+%\lipsum[4-4]
+
+\cite{gen:chandola:2009} synthesizes the clustering techniques in three categories based on three different assumptions: 
+
+\begin{itemize}
+	
+	\setlength\itemsep{-0.5em}
+	
+	\item The normal data instances are part of a cluster in the data and the outliers does not fit any cluster;
+	
+	\item The normal data instances are present close to it's closest cluster centroid and the outliers lies far way from their closest cluster centroid;
+	
+	\item The normal data instances are part of large dense clusters and the outliers are part of small or sparse clusters.
+	
+\end{itemize}
+
+\cite{clust:rajasegarar:2006} uses a technique to minimize the communication overhead by using clusters among the sensor readings. In a further step, it merges the clusters before the data is sent to other nodes.
