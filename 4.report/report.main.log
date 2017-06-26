@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  13 JUN 2017 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  26 JUN 2017 22:00
 entering extended mode
 **./report.main.tex
 (report.main.tex
@@ -1093,38 +1093,80 @@ Overfull \hbox (3.60391pt too wide) in paragraph at lines 77--78
  []
 
 [13 <./figures/xiang2016.pdf>] [14] [15] [16] [17])
-(chapters/3.Outliers.2stat.tex) (chapters/3.Outliers.3nn.tex [18])
-(chapters/3.Outliers.4clust.tex [19]) (chapters/3.Outliers.5spectr.tex)
-(chapters/3.Outliers.6synth.tex) [20]
-Chapter 3.
-(chapters/4.Future.tex) [21
+(chapters/3.Outliers.2stat.tex [18]) (chapters/3.Outliers.3nn.tex [19])
+(chapters/3.Outliers.4clust.tex [20]) (chapters/3.Outliers.5spectr.tex [21]
+Overfull \hbox (18.73633pt too wide) in paragraph at lines 5--6
+\T1/ptm/m/n/10.95 The us-age of Prin-ci-pal Com-po-nent Anal-y-sis (PCA) tech-n
+ique is in-her-ent to the spec-tral decomposition-
+ []
 
-] [22
+
+Overfull \hbox (8.19228pt too wide) in paragraph at lines 28--29
+[]\T1/ptm/m/n/10.95 The eigen-struc-ture as-so-ci-ated to an un-der-ly-ing spac
+e
+ []
+
+) (chapters/3.Outliers.6synth.tex [22]) [23] [24
 
 ]
+Chapter 3.
+(chapters/4.Future.tex
+<figures/evaluation.png, id=497, 4702.56876pt x 1419.3025pt>
+File: figures/evaluation.png Graphic file (type png)
+
+<use figures/evaluation.png>
+Package pdftex.def Info: figures/evaluation.png used on input line 17.
+(pdftex.def)             Requested size: 439.59456pt x 132.66945pt.
+
+Overfull \hbox (12.8032pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+[25 <./figures/evaluation.png (PNG copy)>]) [26]
 Chapter 4.
-(chapters/5.Conclusions.tex) (report.main.bbl [23] [24
+(chapters/5.Conclusions.tex) (report.main.bbl [27
 
-] [25])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
- [26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+] [28
 
-(report.main.aux (report.info.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
-Package rerunfilecheck Info: File `report.main.out' has not changed.
-(rerunfilecheck)             Checksum: D42BCD6D422CA78F7A3D73D0E0306986;2510.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
+]
+! Undefined control sequence.
+l.57   ({ISCC}{\textquotesingle
+                               }06)}. Institute of Electrical and Electronics
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[29] [30])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
+ [31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+ (report.main.aux (report.info.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+
+
+Package rerunfilecheck Warning: File `report.main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.main.out':
+(rerunfilecheck)             Before: 1D2FC1DBB09AE16E952AB5F6ED8E5265;2539
+(rerunfilecheck)             After:  D262AEE5C8790D40EC524BEF9BC46374;2567.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 10552 strings out of 493333
- 153280 string characters out of 3139189
- 372940 words of memory out of 3000000
- 13675 multiletter control sequences out of 15000+200000
+ 10580 strings out of 493333
+ 153893 string characters out of 3139189
+ 373363 words of memory out of 3000000
+ 13692 multiletter control sequences out of 15000+200000
  69956 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,17n,77p,976b,458s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,17n,77p,976b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -1132,9 +1174,9 @@ pe1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.main.pdf (34 pages, 762342 bytes).
+Output written on report.main.pdf (39 pages, 905936 bytes).
 PDF statistics:
- 533 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 285 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 579 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

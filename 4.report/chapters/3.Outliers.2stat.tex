@@ -9,6 +9,16 @@
 
 To detect anomalies, parametric techniques are suggested since those techniques \textbf{assume} the knowledge of the underlying distribution and \textbf{estimate} the parameters from a given data set. Non-parametric techniques differs from parametric ones without the need of assuming the knowledge of the distribution.
 
+\cite{cluster:andrade2016} lists some statistical parametric techniques: 
+
+\begin{description}
+	\setlength\itemsep{-0.5em}
+	\item[Peirce's Criterion]  
+	Statistical parametric method for outlier detection based on a normal distribution.
+	\item[Chauvenet's Criterion]  
+	This criterion is based on the assumption a given measurement may
+	be rejected if the probability of obtaining the deviation for this average value is less than the inverse of twice the number of measurements.
+\end{description}
 
 %%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%
@@ -42,5 +52,16 @@ Complementary, \cite{stat:wang:2013} introduces clusters on incremental histogra
 \subsection{Non-parametric --- Kernel function based}
 \cite{gen:zhang:2010} synthesizes the concept of Kernel function non-parametric approaches as methods for estimating the probability distribution function for normal instances (and a new instance that occurs on a low probability area is declared an outlier). Later on in section \ref{sec:specbased} is presented the Kernel Principal Component Analysis (KPCA) used by \cite{stat:ghorbel:2014} for outlier detection in WSN's.
 
+\cite{cluster:andrade2016} identify some kernel regression techniques: 
+
+\begin{description}
+	\setlength\itemsep{-0.5em}
+	\item[Marzullo's Fault Tolerant Sensor Averaging (FTA) ] 
+	Simple method for sensor fusion where the data assumed as anomalous is deleted.
+	\item[Elmenreich's Confidence-Weighted Averaging (CWA) ] 
+	The sensor's confidence are correlated with the sensor's variance.
+	\item[CWA+FTA method ]
+	This method combines both methods where the confidence-weighted average is calculated and two-thirds of the anomalous data is removed.
+\end{description}
 %%
 %%

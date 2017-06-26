@@ -367,18 +367,6 @@
   url       = {www.scopus.com},
 }
 
-@Article{clust:cenedese2017,
-  author   = {Cenedese,A. and Luvisotto,M. and Michieletto,G.},
-  title    = {Distributed Clustering Strategies in Industrial Wireless Sensor Networks},
-  journal  = {IEEE Transactions on Industrial Informatics},
-  year     = {2017},
-  volume   = {13},
-  number   = {1},
-  pages    = {228-237},
-  language = {English},
-  url      = {www.scopus.com},
-}
-
 @Comment{jabref-meta: databaseType:bibtex;}
 
 % Encoding: UTF-8

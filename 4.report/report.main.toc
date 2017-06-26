@@ -20,14 +20,14 @@
 \contentsline {section}{\numberline {2.6}Statistical based techniques}{18}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Parametric --- Gaussian based}{18}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Non-parametric --- Histogram based}{18}{subsection.2.6.2}
-\contentsline {subsection}{\numberline {2.6.3}Non-parametric --- Kernel function based}{18}{subsection.2.6.3}
-\contentsline {section}{\numberline {2.7}Nearest Neighbor-based techniques}{19}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Using distance}{19}{subsection.2.7.1}
-\contentsline {subsection}{\numberline {2.7.2}Using relative density}{19}{subsection.2.7.2}
-\contentsline {section}{\numberline {2.8}Clustering based techniques}{20}{section.2.8}
-\contentsline {section}{\numberline {2.9}Spectral Decomposition based techniques}{20}{section.2.9}
-\contentsline {section}{\numberline {2.10}Synthesis}{20}{section.2.10}
-\contentsline {chapter}{\numberline {3}Future Research}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Outlier techniques selected}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Synthesis}{21}{section.3.2}
-\contentsline {chapter}{\numberline {4}Conclusion}{23}{chapter.4}
+\contentsline {subsection}{\numberline {2.6.3}Non-parametric --- Kernel function based}{19}{subsection.2.6.3}
+\contentsline {section}{\numberline {2.7}Nearest Neighbor-based techniques}{20}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Using distance}{20}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Using relative density}{20}{subsection.2.7.2}
+\contentsline {section}{\numberline {2.8}Clustering based techniques}{21}{section.2.8}
+\contentsline {section}{\numberline {2.9}Spectral Decomposition-based approach}{22}{section.2.9}
+\contentsline {section}{\numberline {2.10}Synthesis}{23}{section.2.10}
+\contentsline {chapter}{\numberline {3}Future Research}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Evaluation of effect of undetected outliers in railway WSN}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Selection of Outlier detection mechan}{26}{section.3.2}
+\contentsline {chapter}{\numberline {4}Conclusion}{27}{chapter.4}

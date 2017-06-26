@@ -146,16 +146,16 @@ Rule based techniques depends on two steps \cite{gen:chandola:2009}:
 
 \begin{itemize}
 	%\setlength\itemsep{-0.5em}
-	\item \textbf{Learn rules from the training data-set}\\
+	\item \textbf{1. Learn rules from the training data-set}\\
 	Using a learning algorithm (i.e. RIPPER, Decision Tree, etc.)\\
 	Where each rule has an associated confidence value 	proportional to the ratio:\\
 	{\centering	$\text{\footnotesize Confidence Value} = \frac{\text{number of training instances correctly classified by the rule}}{\text{number of total training instances covered by the rule}}$
 }
 		
-	\item \textbf{Find for each test instance the rule}\\
+	\item \textbf{2. Find for each test instance the rule}\\
 	That better capture the given test instance.
 	
-	\item \textbf{The anomaly score is}\\
+	\item \textbf{$\Rightarrow$ The anomaly score is}\\
 	The inverse of the confidence value for the rule that better capture the test instance.
 
 \end{itemize}

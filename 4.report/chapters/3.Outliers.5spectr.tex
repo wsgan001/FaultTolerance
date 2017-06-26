@@ -1,4 +1,35 @@
-%\newpage
-\section{Spectral Decomposition based techniques}
+\newpage
+\section{Spectral Decomposition-based approach}
 \label{sec:specbased}
-\lipsum[4-4]
+
+The usage of Principal Component Analysis (PCA) technique is inherent to the spectral decomposition-based approach. Proposed by \cite{spect:chatzigiannakis:2006}, this technique efficiently models the spatio-temporal data correlations, in a distributed approach and, the local outliers are evaluated with the correlation among the sensor nodes.
+
+
+\cite{gen:zhang:2010} evaluates the Spectral Decomposition-based techniques in two outcomes: 
+\begin{itemize}
+	
+	\setlength\itemsep{-0.5em}
+	
+	\item The PCA-based techniques is of interesting usage where it captures the normal pattern of data;
+	\item However, it is computationally very expensive due to the need of selecting suitable principle components (needed to estimate a correlation matrix of normal patterns).
+	
+\end{itemize}
+
+\cite{class:gil:2016} lists the steps of a PCA-based approach: 
+\begin{description}
+	
+	\setlength\itemsep{-0.5em}
+	
+	\item [Robust recursive location estimator]
+	The PCA requires the estimation of the mean at each sampling time (the measurement vector $x$ is centered).
+	\item [Subspace tracking approach]
+	To avoid the need of extensive calculation of the eigendecomposition, the authors takes advantage of subspace tracking (which recursively tracks the signal subspace spanned by the major principal components)
+	\item [Recursive eigendecomposition computation]
+	The eigenstructure associated to an underlying space is recursively estimated;
+	
+	\item [Robust recursive detection criteria] 
+	Two measures to compare the distance between a value and the remaining time-series are used
+	\item [Robust subspace tracking]
+	Having an updating procedure to affect the signal subspace, if an outlier is detected, this updating procedure is skipped.
+	
+\end{description}

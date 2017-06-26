@@ -9,6 +9,15 @@ Abid, A., A.~Kachouri, and A.~Mahfoudhi (2016, mar).
   for Signal and Image Processing ({ATSIP})}. Institute of Electrical and
   Electronics Engineers ({IEEE}).
 
+\bibitem[\protect\citeauthoryear{Andrade, Montez, Moraes, Pinto, Vasques, and
+  Da~Silva}{Andrade et~al.}{2016}]{cluster:andrade2016}
+Andrade, A. T.~C., C.~Montez, R.~Moraes, A.~R. Pinto, F.~Vasques, and G.~L.
+  Da~Silva (2016).
+\newblock Outlier detection using k-means clustering and lightweight methods
+  for wireless sensor networks.
+\newblock In {\em IECON Proceedings (Industrial Electronics Conference)}, pp.\
+  4683--4688.
+
 \bibitem[\protect\citeauthoryear{Birol and Loubinoux}{Birol and
   Loubinoux}{2016}]{iea-uic2016}
 Birol, F. and J.-P. Loubinoux (2016).
@@ -25,11 +34,28 @@ Branch, J., B.~Szymanski, C.~Giannella, R.~Wolff, and H.~Kargupta (2006).
   Systems ({ICDCS}06)}. Institute of Electrical and Electronics Engineers
   ({IEEE}).
 
+\bibitem[\protect\citeauthoryear{Cenedese, Luvisotto, and Michieletto}{Cenedese
+  et~al.}{2017}]{clust:cenedese2017}
+Cenedese, A., M.~Luvisotto, and G.~Michieletto (2017).
+\newblock Distributed clustering strategies in industrial wireless sensor
+  networks.
+\newblock {\em IEEE Transactions on Industrial Informatics\/}~{\em 13\/}(1),
+  228--237.
+
 \bibitem[\protect\citeauthoryear{Chandola, Banerjee, and Kumar}{Chandola
   et~al.}{2009}]{gen:chandola:2009}
 Chandola, V., A.~Banerjee, and V.~Kumar (2009, jul).
 \newblock Anomaly detection.
 \newblock {\em {ACM} Computing Surveys\/}~{\em 41\/}(3), 1--58.
+
+\bibitem[\protect\citeauthoryear{Chatzigiannakis, Papavassiliou, Grammatikou,
+  and Maglaris}{Chatzigiannakis et~al.}{2006}]{spect:chatzigiannakis:2006}
+Chatzigiannakis, V., S.~Papavassiliou, M.~Grammatikou, and B.~Maglaris (2006).
+\newblock Hierarchical anomaly detection in distributed large-scale sensor
+  networks.
+\newblock In {\em 11th {IEEE} Symposium on Computers and Communications
+  ({ISCC}{\textquotesingle}06)}. Institute of Electrical and Electronics
+  Engineers ({IEEE}).
 
 \bibitem[\protect\citeauthoryear{Ghorbel, Abid, and Snoussi}{Ghorbel
   et~al.}{2014}]{stat:ghorbel:2014}
@@ -47,6 +73,13 @@ Ghorbel, O., W.~Ayedi, H.~Snoussi, and M.~Abid (2015, jun).
 \newblock Fast and efficient outlier detection method in wireless sensor
   networks.
 \newblock {\em {IEEE} Sensors Journal\/}~{\em 15\/}(6), 3403--3411.
+
+\bibitem[\protect\citeauthoryear{Gil, Martins, and Janu{\'{a}}rio}{Gil
+  et~al.}{2016}]{class:gil:2016}
+Gil, P., H.~Martins, and F.~Janu{\'{a}}rio (2016, may).
+\newblock Detection and accommodation of outliers in wireless sensor networks
+  within a multi-agent framework.
+\newblock {\em Applied Soft Computing\/}~{\em 42}, 204--214.
 
 \bibitem[\protect\citeauthoryear{Islam, Hossain, and Andersson}{Islam
   et~al.}{2016}]{class:islam:2016}
