@@ -8,7 +8,12 @@ In this chapter there are presented the future steps in research on outliers det
 \section{Evaluation of effect of undetected outliers in railway WSN}
 
 
-During the state of the art, the definition of "what is an outlier in railways WSN" was slightly covered, resulting in raising the research question: \textbf{What is the effect of an undetected outlier in railways WSN?}
+During the state of the art, the definition of "what is an outlier in railways WSN" was slightly covered, resulting in raising the research question:
+
+\fbox{
+	\centering
+	\textbf{What is the effect of an undetected outlier in an railways WSN?}
+} 
 
 A railways WSN is focused on acquiring the data (in forms of measurements) from the railways environment with the purpose of providing that information to a subsystem (such as a decision support system). Having this in mind, an assumption should be made to define the outlier as the effect of erroneous information retrieved from the DSS due to erroneous data from the measurement. A major contribution of an outlier detection mechanism is the validation of the quality of the output of the DSS. In particular, if a measurement or a set of measurements are detected as outliers, the DSS will have the information of the quality of his output, as is shown in figure \ref{fig:evaluation}.
 
@@ -21,10 +26,15 @@ A railways WSN is focused on acquiring the data (in forms of measurements) from 
 
 It is important at this moment to present examples of DSS. Eco-driving strategies and timetable planning require conservative measurements of energy consumption in several points of the railway electrical system, where the situations of outliers should result, in example, in default outputs of DSS; On other side, preventive maintenance may find resourceful the presence of outliers considering that those outliers reflect anomalous behavior due to unknown external effects (on the measurement).
 
+The methodology will embrace the simulation of the railway WSN system. With a well defined simulation model that mimics the behavior of the DSS, the measurements acquisition system and the wireless network, the effect of undetected outlier can be evaluated before and after the DSS.
 
-The methodology will embrace the simulation of the railway WSN system. With a well defined simulation model that mimics the behavior of
+Considering the literature, two possibilities will be considered as a starting point for this railway WSN system simulator: the NS-3 and the contiki-cooja network simulators. However, for the future research, a higher analysis on the available simulators must be considered.
 
 
-\section{Selection of Outlier detection mechan}
+\section{Selection of Outlier detection mechanism}
 
-\lipsum[1]
+On the previous section, the need of a simulation model was presented. However, based on real data from railway systems (or similar) can validate the implementation of an outlier detection mechanism.
+
+In this way, a set of outlier detection mechanisms can be validated with a given testbench. The research question that can be raised is the following:\textbf{What is the effect of an undetected outlier in an railways WSN?}
+
+
