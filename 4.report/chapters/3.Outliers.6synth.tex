@@ -3,21 +3,21 @@
 \label{sec:synth}
 
 
-In this chapter was presented some of the literature review on outlier detection in WSN's.
+In this chapter was presented some of the literature review regarding outlier detection in WSN's.
 
-In an initial stage was presented the context of outlier detection applied to the railways monitoring/sensing.
-Several authors try to define the outliers on sensor networks as the occurrence of an anomalous measurement, affected by an external event such as temperature variation or EMI effect.
-This way and framed with an railway sensor network, an outlier will be a disturbance in the sensing subsystem that will affect a subsystem dependent on the data provided by the sensing subsystem (such as a decision support system - DSS).
+In an initial stage, it was presented the context of outlier detection applied to the railways monitoring/sensing.
+Several authors try to define the outliers on sensor networks as the occurrence of anomalous measurements, affected by external events such as temperature variation or EMI effect.
+This way and framed with a railway sensor network, an outlier will be a disturbance in the sensing subsystem that will affect a subsystem dependent on the data provided by this sensing subsystem (in example, such data-dependent subsystem can be a decision support system - DSS).
 
-The challenges are presented to identify the main issues of WSN's. In addition to the rush environment of the railway systems, challenges as the resource constraints, high communication cost (in terms of energy consumption) and others are identified. The main conclusion of this identification is the need for future work to evaluate the effect of undetected outliers on other subsystems (in particular, the DSS).
+The challenges are presented to identify the main issues of WSN's. In addition to the rush environment of the railway systems, the challenges identified are the resource constraints, the high communication cost (in terms of energy consumption) and others. The main conclusion of this identification is the need, for future work, to evaluate the effect of undetected outliers on other subsystems (in particular, the DSS).
 
-The literature present several works that covers the aspects that compare different outlier detection techniques. Those aspects can be considered as metrics to classify the characteristics of those techniques, as presented in section \ref{sec:classint} of this work. Further on, a base taxonomy is presented to structure the relevant outlier detection techniques presented in the literature.
+The literature presents several works that covers the aspects that compare different outlier detection techniques. Those aspects can be considered as metrics to classify the characteristics of those techniques, as presented in section \ref{sec:classint} of this work. Further on, a base taxonomy is presented to structure the relevant outlier detection techniques presented in the literature.
 
-Starting with classification techniques, the main advantage is the result of well identified outliers, based on building classification models to classify. A drawback is the computational complexity of those techniques. Another drawback is the need to choose a proper kernel function.
+Starting with classification techniques, the main advantage is the result of well identified outliers, based on building classification models to classify the data. A drawback is the computational complexity of those techniques. Another drawback is the need to choose a proper kernel function.
 
-The statistical techniques presented are founded on the mathematical theory and depends on having a correctly acquired probability distribution model. The parametric functions depends on available knowledge and may be useless if the sensor data does not follow a given preset distribution.  On the other side, the non-parametric techniques does not require to make any assumption on the distribution characteristics. The interest of these techniques are the low computational requirements.
+The statistical techniques presented are founded on the mathematical theory and depends on having a correctly acquired probability distribution model. The parametric functions depend on available knowledge and may be useless if the sensor data do not follow a given preset distribution.  On the other side, the non-parametric techniques does not require to make any assumption on the distribution characteristics. The interest of these techniques are the low computational requirements.
 
-On the nearest neighbor-based techniques and on cluster techniques, the first technique proposes methodologies to evaluate how far is a given data instance from the neighbor (and the normal instances occurs in dense neighborhoods). The second technique are based on the assumption that the normal data can be grouped in clusters and the sparsest values are not presented in those clusters. (?? why different taxonomy division ??)
+On the nearest neighbor-based techniques and on cluster techniques, the first technique proposes methodologies to evaluate how far is a given data instance from the neighbor (and the normal instances occurs in dense neighborhoods). The second technique are based on the assumption that the normal data can be grouped in clusters and the sparsest values are not presented in those clusters. In the literature, it is common the taxonomy division of these techniques.
 
 To conclude the literature review, the spectral decomposition approaches are slightly covered with particular emphasis on PCA technique.
 

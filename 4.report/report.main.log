@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  28 JUN 2017 00:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.6)  28 JUN 2017 23:24
 entering extended mode
 **./report.main.tex
 (report.main.tex
@@ -1132,17 +1132,18 @@ File: figures/website.png Graphic file (type png)
 <use figures/website.png>
 Package pdftex.def Info: figures/website.png used on input line 59.
 (pdftex.def)             Requested size: 384.1096pt x 246.93327pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26] <figures/wind_power.png, id=517, 2075.755pt x 1057.9525pt>
+ [26]
+<figures/wind_power.png, id=516, 2075.755pt x 1057.9525pt>
 File: figures/wind_power.png Graphic file (type png)
 
 <use figures/wind_power.png>
 Package pdftex.def Info: figures/wind_power.png used on input line 70.
 (pdftex.def)             Requested size: 426.79135pt x 217.51125pt.
- [27 <./figures/website.png> <./figures/wind_power.png>]) [28]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [27 <./figures/website.png>] [28 <./figures/wind_power.png>]
 Chapter 4.
 (chapters/5.Conclusions.tex) (report.main.bbl [29
 
@@ -1172,7 +1173,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
 Here is how much of TeX's memory you used:
  10596 strings out of 493333
  154197 string characters out of 3139189
- 373563 words of memory out of 3000000
+ 373562 words of memory out of 3000000
  13702 multiletter control sequences out of 15000+200000
  69956 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1184,7 +1185,7 @@ pe1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.main.pdf (41 pages, 1010364 bytes).
+Output written on report.main.pdf (41 pages, 1011008 bytes).
 PDF statistics:
  603 PDF objects out of 1000 (max. 8388607)
  111 named destinations out of 1000 (max. 500000)
