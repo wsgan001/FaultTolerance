@@ -8,13 +8,13 @@ In this chapter there are presented the future steps in research on outliers det
 \section{Evaluation of effect of undetected outliers in railway WSN}
 
 
-During the state of the art, the definition of "what is an outlier in railways WSN" was slightly covered, resulting in raising the research question:
+During the state of the art, the definition of "what is an outlier in a railways remote monitoring system" was slightly covered, resulting in raising the research question:
 	
 	
 \vspace{0.5em}
 {\centering{
 		\framebox[\linewidth]{
-	\textbf{What is the effect of an undetected outlier in a railways WSN?}
+	\textbf{What is the effect of an undetected outlier in a railway remote monitoring system?}
 } }}\par
 \vspace{1.5em}
 
@@ -34,7 +34,7 @@ The methodology will embrace the simulation of the railway WSN system. With a we
 Considering the literature, two possibilities will be considered as a starting point for this railway WSN system simulator: the NS-3 and the contiki-cooja network simulators. However, for the future research, a higher analysis on the available simulators must be considered.
 
 
-\section{Selection of Outlier detection mechanism}
+\section{Selection of outlier detection mechanism}
 
 On the previous section, the need of a simulation model was presented. However, based on real data from railway systems (or similar) can validate the implementation of an outlier detection mechanism.
 
@@ -43,7 +43,7 @@ In this way, a set of outlier detection mechanisms can be validated with a given
 \vspace{0.5em}
 {\centering{
 		\framebox[\linewidth]{
-			\textbf{How to effectively detect an outlier in a railways WSN?}
+			\textbf{How to effectively detect an outlier in a railway remote monitoring system?}
 } }}\par
 \vspace{1.5em}
 
@@ -54,16 +54,18 @@ This way, the computational requirements should not be considered in an initial 
 The methodology expected to answer the raised research question is, at a first instance, a combination of the \cite{class:xu:2012} methodology (by using a KNN-SVM technique) and the \cite{nn:abid:2016} methodology (that focuses the evaluation of the data values of a given time-slot by using a $k^{th}-nn$ procedure).
 
 A first test-bench would be the data returned by a monitoring system developed in DEEC. In the figure \ref{fig:website} is presented the data that is monitoring a wind generator power converter.
+
+
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.90\textwidth,keepaspectratio]{figures/website}
+	\includegraphics[width=0.70\textwidth,keepaspectratio]{figures/website}
 	\caption{Website representation of ten-minute log of wind generator variables. }
 	\label{fig:website}
 \end{figure}
 
 The wind generator in question is designed to achieve 2kW at nominal power. However, the low and inconstant wind speed conditions are the cause of the viewed spikes in the power (green line) and in the rotor velocity (red line).
 
-A major contribution of an outlier detection mechanism will be the pre-processing of the data before is transferred to the data-concentrator. An important note should be taken since this is a wired test-bench and the data is collected from the power converted with the spikes, showed in upper graph of figure \ref{fig:wind_power}, and then sent to the data concentrator.
+A major contribution of an outlier detection mechanism will be the preliminarily processing of the data before is transferred to the data-concentrator. An important note should be taken since this is a wired test-bench and the data is collected from the power converted with the spikes, showed in upper graph of figure \ref{fig:wind_power}, and then sent to the data concentrator.
 
 \begin{figure}[h!]
 	\centering

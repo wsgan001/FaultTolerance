@@ -1,8 +1,8 @@
 %\lipsum[4-4]
-In this chapter it is  made the study of the state of the art of outliers and its relevance in railways.
+In this chapter, a study on the state of  the art of outliers is made and its relevance in railways.
 
-In section \ref{sec:def} is defined what is an outlier either with base on the literature and with base on the scope of the PhD. 
-In section \ref{sec:od_wsn} is covered the motivation, research opportunities and challenges in outlier detection for Wireless Sensor Networks (WSNs) and for the scope of the PhD. 
+In section \ref{sec:def}, the definition of an outlier is presented covering the literature and presenting a definition on the scope of the PhD. 
+In section \ref{sec:od_wsn}, the motivation, research opportunities and challenges in outlier detection for Wireless Sensor Networks (WSNs) is covered. 
 In section \ref{sec:classint} different aspects of outlier detection that has been used in the literature are presented. 
 In section \ref{sec:taxon} the taxonomy to divide and classify the different techniques is presented.
 
@@ -15,7 +15,7 @@ In section \ref{sec:synth} is made a synthesis of the outlier detection techniqu
 \label{sec:def}
 Outlier detection is a computational task to detect and retrieve information from erroneous data values. The definition is usually close to anomaly detection or deviation detection. 
 
-\cite{class:branch:2006} identifies the outlier detection as an essential step to either suppress or amplify outliers and precedes most any data analysis routine. \cite{nn:abid:2016} points the need of detecting aberrant data and sensors within an WSN. \cite{nn:zhuang:2006} extends the outlier definition to the case where the outliers introduce in sensing queries and in sensing data analysis.
+\cite{class:branch:2006} identifies outlier detection as an essential step to either suppress or amplify outliers and precedes most data analysis routine. \cite{nn:abid:2016} points the need of detecting aberrant data and sensors within an WSN. \cite{nn:zhuang:2006} extends the outlier definition to the case where the outliers are introduced in sensing queries and in sensing data analysis.
 
 %%%%%%%%%%%  outlier defnition in the scope of my phd
 \vspace{1em}
@@ -39,14 +39,14 @@ Without an outlier detection mechanism, the decision support subsystem may have 
 \begin{description}
 	\setlength\itemsep{-0.5em}
 	\item[Input deviation from real value lower than a threshold]
-	The Decision Support Subsystem output is according to the real consumption conditions.
+	The Decision Support Subsystem output is in accordance to the real consumption conditions.
 	\item[Input deviation from real value greater than a threshold]
-	The Decision Support Subsystem output is not according to the real consumption conditions.	
+	The Decision Support Subsystem output is not in accordance to the real consumption conditions.	
 \end{description}
 
-The problem of taking decisions based on wrong considerations of the consumption status may lead to loss in desirable efficiency or increase of costs.
+The problem of taking decisions based on wrong considerations of the consumption status is that it may lead to loss in desirable efficiency or increase of costs.
 
-Let us consider a simple and hypothetical example where the DSS will provide an output towards suggesting an action in preventive maintenance based on the usage of a component. Considering that the usage of the component is depending on the counting of situations that the component is working above the nominal conditions. Without an outlier detection mechanism, the outliers will induce the DSS to count situations of overcharge of the component where the measurement is not related to the working above the nominal conditions but is related to external influences such as EMI or temperature. The output of DSS may suggest a preventive maintenance on a component that is working in proper conditions.
+Let us consider a simple and hypothetical example where the DSS will provide an output towards suggesting an action in preventive maintenance based on the usage of a component. Considering that the usage of the component is depending on the counting of situations that the component is working above the nominal conditions. Without an outlier detection mechanism, the outliers will induce the DSS in counting situations of overcharge of the component, where the measurement is not related to working nominal conditions but is related to external influences, such as EMI or temperature. The output of DSS may suggest a preventive maintenance on a component that is working in proper conditions.
 
 To conclude, with an outlier detection mechanism in the consumption acquisition subsystem the decision support subsystem may know if the value of consumption is an outlier or not and, with that information, the DSS output will be more accurate with the real conditions of operation.
 
@@ -60,9 +60,9 @@ Wireless sensor networks (WSNs) has been widely used in several applications in 
 
 \subsection{Motivation}
 
-\cite{class:rajasegarar:2007} points an important motivation for the inclusion of computational algorithms, i.e. outlier detection algorithms, to reduce the transmission of erroneous data, since in WSNs, the majority of the energy consumption occurs in the radio communication. In particular, they present the case of Sensoria sensors and Berkeley motes where the energy consumption in communication exceeds in ranges from 1000 to 10000 the energy consumption of computation.
+\cite{class:rajasegarar:2007} points an important motivation for the inclusion of computational algorithms, i.e. outlier detection algorithms, to reduce the transmission of erroneous data, since in WSNs, the majority of the energy consumption occurs in radio communication. In particular, they present the case of Sensoria sensors and Berkeley motes, where the energy consumption in communication exceeds, in ranges from 1000 to 10000, the energy consumption of computation.
 
-Thus, a research opportunity is raised to reduce the communication usage of $\mu C$s by adding processing features where the small increase in the computation will significantly reduce the energy consumption in the transmission. These processing features are, among others, the outlier detection algorithms.
+Thus, this raises a research opportunity to reduce the communication usage of $\mu C$s, by adding processing features, where the small increase in the computation will significantly reduce the energy consumption in the transmission. These processing features are, among others, the outlier detection algorithms.
 
 
 On the field of the quality of the data acquired by WSNs, the motivation of detecting outliers in data acquired from WSNs has been extensively presented in the literature. The need for acquire data from harsh or "highly dynamic" environments as well as the need to validate and extract knowledge from the acquired data are one of the main points in the motivation to study the outlier detection in WSNs,  \cite{gen:zhang:2010,gen:chandola:2009,stat:ghorbel:2015,class:martins:2015b}.
@@ -106,9 +106,9 @@ Zhang et al. \cite{gen:zhang:2010} lists the challenges as the following:
 	
 \end{itemize}
 
-\cite{class:branch:2006} identifies an important challenge, where the probability of occurrence of outlier events are extremely small. \cite{nn:abid:2016} as well as \cite{stat:sheng:2007} identifies the large amount of data as the main challenge for outlier detection in WSN. \cite{nn:zhuang:2006} identifies the inexpensive and low fidelity sensors as the main reason for the error generation and, the main challenge are identified on the distributed streaming data among a large amount of sensors. \cite{stat:ghorbel:2015} points a main challenge as the processing of data from sensors that generates continuously data that is uncertain and unreliable. 
+\cite{class:branch:2006} identifies an important challenge, where the probability of occurrence of outlier events are extremely small. \cite{nn:abid:2016} as well as \cite{stat:sheng:2007} identifies the large amount of data as the main challenge for outlier detection in WSN. \cite{nn:zhuang:2006} identifies the inexpensive and low fidelity sensors as the main reason for the error generation and the main challenge is identified on the distributed streaming data among a large amount of sensors. \cite{stat:ghorbel:2015} points the main challenge as the processing of data from sensors that generate continuously data, that is uncertain and unreliable. 
 
-To conclude, and in the scope of the PhD, the main challenges will be the usage of inexpensive and low fidelity sensors that will be affected by the rush railway environment. Complementary, the main challenge of using outlier detection mechanisms in the railway WSN is the balance between the detection accuracy and the influence that undetected data-instances will induce in other subsystems (in particular in decision support systems dependent on data from the WSN). In addition, the detection accuracy is directly related with the memory usage, computational requirements, communication overhead, etc. 
+To conclude, the main challenge will be the usage of inexpensive and low fidelity sensors that will be affected by the rush railway environment. Complementary, the main challenge of using outlier detection mechanisms in the railway WSN is the balance between the detection accuracy and the influence that undetected data-instances will induce in other subsystems (in particular in decision support systems dependent on data from the WSN). In addition, the detection accuracy is directly related with the memory usage, computational requirements, communication overhead, etc. 
 
 
 \newpage
@@ -152,7 +152,7 @@ Table \ref{table:t3} continues the classification, focusing in three parts:
 \label{sec:taxon}
 The study of detection techniques requires a well-defined taxonomy framework that addresses the related work on the different areas. This taxonomy is well defined and solid in the literature, where the works of \cite{gen:zhang:2010} and \cite{gen:chandola:2009} reflect a similar approach on presenting a taxonomy for outlier detection techniques.
 
-In the following sections a coverage in relevant techniques is presented:
+In the following sections, a coverage in relevant techniques is presented:
 
 \begin{itemize}
 	\setlength\itemsep{-0.5em}

@@ -7,7 +7,7 @@
 
 \cite{gen:chandola:2009} identifies the statistical techniques for anomaly detection based on the assumption that, in a stochastic model, the most common data instances occur in high probability regions and the anomalies occur in low probability regions.
 
-To detect anomalies, parametric techniques are suggested since those techniques \textbf{assume} the knowledge of the underlying distribution and \textbf{estimate} the parameters from a given data set. Non-parametric techniques differ from parametric ones without the need of assuming the knowledge of the distribution.
+To detect anomalies, parametric techniques are suggested, since those techniques \textbf{assume} the knowledge of the underlying distribution and \textbf{estimate} the parameters from a given data set. Non-parametric techniques differ from parametric ones without the need of assuming the knowledge of the distribution.
 
 \cite{cluster:andrade2016} lists some statistical parametric techniques: 
 
@@ -16,7 +16,7 @@ To detect anomalies, parametric techniques are suggested since those techniques 
 	\item[Peirce's Criterion]  
 	This statistical parametric method is based on a normal distribution.
 	\item[Chauvenet's Criterion]  
-	Is based on the assumption that a given measurement may be rejected, if the probability of having the deviation for this average value is lower than the inverse of the double of the number of measurements. 
+	Is based on the assumption that a given arbitrary measurement may be rejected, if the probability of having the deviation for the average value is lower than the inverse of the double of the number of measurements. 
 
 \end{description}
 
@@ -28,10 +28,10 @@ To detect anomalies, parametric techniques are suggested since those techniques 
 \begin{itemize}
 	\setlength\itemsep{-0.5em}
 	\item The available knowledge is generated from a known distribution;
-	\item The distribution parameters is then estimated from the give data.	
+	\item The distribution parameters is then estimated from the given data.	
 \end{itemize}
 
-The usage of Gaussian  models allows the spatial correlation of the readings towards distinguishing between outlying sensors and event boundary. 
+The usage of Gaussian  models allows the spatial correlation of readings towards distinguishing between outlying sensors and event boundary. 
 
 \subsection{Non-parametric --- Histogram based}
 \cite{stat:sheng:2007} proposes a histogram-based method to reduce the communication cost on sensor networks. The main objective of this proposal is to collect hints (in a form of histogram) about the data distribution and, with the knowledge from these hints, unnecessary data is filtered and potential outliers are detected 
